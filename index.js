@@ -1,21 +1,21 @@
-// let btn = document.querySelectorAll(".btn")
-// let btns = document.getElementById("dl")
-// console.log("hello",btn);
-// btns.innerText = "hekko";
+let btn = document.querySelectorAll(".btn")
+let btns = document.getElementById("dl")
+console.log("hello",btn);
+btns.innerText = "hekko";
 
-//  for(let i = 0; i < btn.length; i++){
-//     console.log("hello",btn[i]);
-//     btn[i].addEventListener('click', function() {
+ for(let i = 0; i < btn.length; i++){
+    console.log("hello",btn[i]);
+    btn[i].addEventListener('click', function() {
 
-//       // loop your button again to remove all "active"
-//       for(let j = 0; j < btn.length; j++){
-//         btn[j].classList.remove("active");
-//       }
-//       // add active class to your clicked button
-//       btn[i].classList.add("active");
-//     });
+      // loop your button again to remove all "active"
+      for(let j = 0; j < btn.length; j++){
+        btn[j].classList.remove("active");
+      }
+      // add active class to your clicked button
+      btn[i].classList.add("active");
+    });
 
-//  }
+ }
 
 // Remove falsy value from any array
 
@@ -141,25 +141,29 @@
 //     }
 //   });
 // })();
-let items = document.querySelectorAll("li");
 
-let searchInput = document.querySelector(".search-list");
-const filterSearch = () =>{
-  items.forEach(item => {
-    if(item.textContent.toLowerCase().includes(searchInput.value.toLowerCase())){
-      item.classList.remove("hide");
-    } else {
-      item.classList.add("hide")
-    }
-  });
-}
 
-searchInput.addEventListener('keyup',(e)=>{
-  let inputValue = e.target.value;
-  console.log(inputValue)
-  filterSearch()
+
+
+// let items = document.querySelectorAll("li");
+
+// let searchInput = document.querySelector(".search-list");
+// const filterSearch = () =>{
+//   items.forEach(item => {
+//     if(item.textContent.toLowerCase().includes(searchInput.value.toLowerCase())){
+//       item.classList.remove("hide");
+//     } else {
+//       item.classList.add("hide")
+//     }
+//   });
+// }
+
+// searchInput.addEventListener('keyup',(e)=>{
+//   let inputValue = e.target.value;
+//   console.log(inputValue)
+//   filterSearch()
  
-})
+// })
 
-console.log("hello", searchInput);
+// console.log("hello", searchInput);
 
