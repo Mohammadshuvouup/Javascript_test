@@ -1,0 +1,8 @@
+.active{
+    background-color: red;
+    color: green;
+}
+
+.hide{
+    display: none;
+}
