@@ -23,9 +23,9 @@ let hello =['Apple',false,'orange',NaN,'banana',null,'chilli',undefined,'hello']
 let fruits = hello.filter(Boolean);
 console.log(fruits);
 
-// let animals =['cat','tiger','lion','dog']
-// animals.length = 2;
-// console.log(animals)
+let animals =['cat','tiger','lion','dog']
+animals.length = 2;
+console.log(animals)
 
 // const quote = "i am mohammad ali"
 // console.log(quote.replace(/ali/g, "SHuvo"))
