@@ -27,11 +27,11 @@ let animals =['cat','tiger','lion','dog']
 animals.length = 2;
 console.log(animals)
 
-// const quote = "i am mohammad ali"
-// console.log(quote.replace(/ali/g, "SHuvo"))
+const quote = "i am mohammad ali"
+console.log(quote.replace(/ali/g, "SHuvo"))
 
-//  const btn = document.querySelectorAll(".btn")
-// console.log("hello",btn);
+ const btn = document.querySelectorAll(".btn")
+console.log("hello",btn);
 
 // for(let i = 0; i < btn.length; i++){
 //   console.log("he",btn[i]);
