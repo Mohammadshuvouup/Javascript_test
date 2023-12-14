@@ -19,9 +19,9 @@ btns.innerText = "hekko";
 
 // Remove falsy value from any array
 
-// let hello =['Apple',false,'orange',NaN,'banana',null,'chilli',undefined,'hello'];
-// let fruits = hello.filter(Boolean);
-// console.log(fruits);
+let hello =['Apple',false,'orange',NaN,'banana',null,'chilli',undefined,'hello'];
+let fruits = hello.filter(Boolean);
+console.log(fruits);
 
 // let animals =['cat','tiger','lion','dog']
 // animals.length = 2;
