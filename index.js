@@ -19,36 +19,36 @@ btns.innerText = "hekko";
 
 // Remove falsy value from any array
 
-let hello =['Apple',false,'orange',NaN,'banana',null,'chilli',undefined,'hello'];
-let fruits = hello.filter(Boolean);
-console.log(fruits);
+// let hello =['Apple',false,'orange',NaN,'banana',null,'chilli',undefined,'hello'];
+// let fruits = hello.filter(Boolean);
+// console.log(fruits);
 
-let animals =['cat','tiger','lion','dog']
-animals.length = 2;
-console.log(animals)
+// let animals =['cat','tiger','lion','dog']
+// animals.length = 2;
+// console.log(animals)
 
-const quote = "i am mohammad ali"
-console.log(quote.replace(/ali/g, "SHuvo"))
+// const quote = "i am mohammad ali"
+// console.log(quote.replace(/ali/g, "SHuvo"))
 
- const btn = document.querySelectorAll(".btn")
-console.log("hello",btn);
+//  const btn = document.querySelectorAll(".btn")
+// console.log("hello",btn);
 
-// for(let i = 0; i < btn.length; i++){
-//   console.log("he",btn[i]);
-//     btn[i].addEventListener('mouseover', function() {
-//       btn[i].classList.add("active");
+for(let i = 0; i < btn.length; i++){
+  console.log("he",btn[i]);
+    btn[i].addEventListener('mouseover', function() {
+      btn[i].classList.add("active");
 
-//       for (let j =0; j < btn.length; j++){
-//         btn[i].addEventListener('mouseout', function() {
-//           btn[i].classList.remove("active");
+      for (let j =0; j < btn.length; j++){
+        btn[i].addEventListener('mouseout', function() {
+          btn[i].classList.remove("active");
 
-//       });
+      });
 
-//       }
+      }
 
-//     });
+    });
 
-//   }
+  }
 
 // const btn = document.querySelectorAll(".btn")
 // console.log("hello",btn);
